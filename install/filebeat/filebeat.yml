@@ -1,7 +1,7 @@
 filebeat.prospectors:
 - input_type: log
   paths:
-    - /var/lancache/logs/*.log
+    - /var/log/nginx/*.log
   document_type: lancache
 
 output.logstash:

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PATH_CACHE="/var/lancache/cache"
-PATH_LOGS="/var/lancache/logs"
+PATH_CACHE="/srv/lancache"
+PATH_LOGS="/var/log/nginx"
 
 echo "Stopping nginx"
 /bin/systemctl stop nginx

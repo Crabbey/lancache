@@ -2,8 +2,8 @@
 set -e # abort script if there is an error
 
 PATH_CONFIG="/etc/nginx"
-PATH_CACHE="/var/lancache/cache"
-PATH_LOGS="/var/lancache/logs"
+PATH_CACHE="/srv/lancache"
+PATH_LOGS="/var/log/nginx"
 WWW_USER="www-data"
 
 echo "Creating cache data directory: $PATH_CACHE"
